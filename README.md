@@ -1,3 +1,3 @@
-# Timeline — A Digital Version of the Card Game by Asmodee
+# Timeline Challenge
 
-## [Overview of the Game](https://www.asmodee.us/en/games/timeline/)
+## [Original Game: 'Timeline' by Asmodee](https://www.asmodee.us/en/games/timeline/)
