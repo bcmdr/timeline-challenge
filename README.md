@@ -1,3 +1,4 @@
 # Timeline Challenge
 
-## [Original Game: *Timeline* by Asmodee](https://www.asmodee.us/en/games/timeline/)
+## Overview
+- Based on the Card Game *Timeline* as published by Asmodee](https://www.asmodee.us/en/games/timeline/)
