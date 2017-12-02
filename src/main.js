@@ -123,19 +123,19 @@ let cardList = rawInput.split('\n').map(function(cardString) {
 })
 
 Vue.component('card-list', {
-  // TODO refactor card into child component of cardList
   template: '<ol><li v-for="card in cardList">{{ card.year }} — {{ card.title }}</li></ol>',
-  data: function () {
-    return {
-      cardList: cardList
-    }
+  props: {
+    cardList: Array
   }
 })
 
-Vue.component('timeline-card', {
-  
-})
+// Vue.component('timeline-card', {
+//
+// })
 
-new Vue({
+var main = new Vue({
   el: "#main",
+  data: {
+    cardList: cardList
+  }
 })
