@@ -3,22 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Timeline Challenge</title>
+    <!-- Add this to <head> -->
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap@next/dist/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
   </head>
   <body>
+
+    <div>
+      <b-card title="Card Title"
+              img-src="https://lorempixel.com/600/300/food/5/"
+              img-alt="Image"
+              img-top
+              tag="article"
+              style="max-width: 20rem;"
+              class="mb-2">
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </p>
+        <b-button href="#" variant="primary">Go somewhere</b-button>
+      </b-card>
+    </div>
+
+    <!-- Vue Main -->
     <div id="main">
-      <!-- <ul>
-        <li v-for="card in cardList">
-          {{ card.year }} — {{ card.title }}
-        </li>
-      </ul> -->
-      <ul-card-list></ul-card-list>
-    </div><!-- END Main -->
+      <card-list></card-list>
+    </div>
     <!-- Google Firebase -->
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
     <!-- Vue.js -->
     <script src="https://unpkg.com/vue"></script>
+    <!-- Bootstrap-Vue -->
+    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
     <!-- Application -->
-    <script src="./lib/TimelineCards.js"></script>
     <script src="./src/main.js"></script>
+
   </body>
 </html>
